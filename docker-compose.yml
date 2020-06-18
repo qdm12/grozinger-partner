@@ -1,9 +1,9 @@
 version: '3.7'
 services:
-  REPONAME_DOCKER:
+  grozinger-partner:
     build: .
-    image: qmcgaw/REPONAME_DOCKER
-    container_name: REPONAME_DOCKER
+    image: qmcgaw/grozinger-partner
+    container_name: grozinger-partner
     ports:
       - 8080:8080/tcp
     restart: always

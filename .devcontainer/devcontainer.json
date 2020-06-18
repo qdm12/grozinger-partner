@@ -1,5 +1,5 @@
 {
-    "name": "REPONAME_GITHUB-dev",
+    "name": "grozinger-partner-dev",
     "dockerComposeFile": ["docker-compose.yml"],
     "service": "vscode",
     "runServices": ["vscode"],
