@@ -1,31 +1,26 @@
-# grozinger-partner
+# Grozinger Partner
 
-*SHORT_DESCRIPTION*
+*Static single page website for law office, written in react + typescript*
 
 <img height="200" src="title.svg?sanitize=true">
 
 [![Build status](https://github.com/qdm12/grozinger-partner/workflows/Buildx%20latest/badge.svg)](https://github.com/qdm12/grozinger-partner/actions?query=workflow%3A%22Buildx+latest%22)
-[![Docker Pulls](https://img.shields.io/docker/pulls/qmcgaw/grozinger-partner.svg)](https://hub.docker.com/r/qmcgaw/grozinger-partner)
-[![Docker Stars](https://img.shields.io/docker/stars/qmcgaw/grozinger-partner.svg)](https://hub.docker.com/r/qmcgaw/grozinger-partner)
-[![Image size](https://images.microbadger.com/badges/image/qmcgaw/grozinger-partner.svg)](https://microbadger.com/images/qmcgaw/grozinger-partner)
-[![Image version](https://images.microbadger.com/badges/version/qmcgaw/grozinger-partner.svg)](https://microbadger.com/images/qmcgaw/grozinger-partner)
 
-[![Join Slack channel](https://img.shields.io/badge/slack-@qdm12-yellow.svg?logo=slack)](https://join.slack.com/t/qdm12/shared_invite/enQtOTE0NjcxNTM1ODc5LTYyZmVlOTM3MGI4ZWU0YmJkMjUxNmQ4ODQ2OTAwYzMxMTlhY2Q1MWQyOWUyNjc2ODliNjFjMDUxNWNmNzk5MDk)
 [![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/grozinger-partner.svg)](https://github.com/qdm12/grozinger-partner/issues)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/grozinger-partner.svg)](https://github.com/qdm12/grozinger-partner/issues)
 [![GitHub issues](https://img.shields.io/github/issues/qdm12/grozinger-partner.svg)](https://github.com/qdm12/grozinger-partner/issues)
 
 ## Features
 
-- Compatible with `amd64`, `386`, `arm64`, `arm32v7`, `arm32v6`, `ppc64le` and `s390x` CPU architectures.
-- [Docker image tags and sizes](https://hub.docker.com/r/qmcgaw/grozinger-partner/tags)
+- Fancy pencil drawings with nice opacity transitions
+- Translations in english, french and german
 
 ## Setup
 
 1. Use the following command:
 
     ```sh
-    docker run -d qmcgaw/grozinger-partner
+    docker run -d -p 8080:8080/tcp qmcgaw/grozinger-partner
     ```
 
     You can also use [docker-compose.yml](https://github.com/qdm12/grozinger-partner/blob/master/docker-compose.yml) with:
@@ -33,8 +28,6 @@
     ```sh
     docker-compose up -d
     ```
-
-1. You can update the image with `docker pull qmcgaw/grozinger-partner:latest` or use one of [tags available](https://hub.docker.com/r//qmcgaw/grozinger-partner/tags)
 
 ### Environment variables
 
@@ -78,14 +71,8 @@
     docker build -t qmcgaw/grozinger-partner .
     ```
 
-1. See [Contributing](.github/CONTRIBUTING.md) for more information on how to contribute to this repository.
-
 ## TODOs
 
-- [ ] Change public icons and logos
-- [ ] Write some dummy tests
-- [ ] Root URL for rev proxy in Go
-
-## License
-
-This repository is under an [MIT license](https://github.com/qdm12/grozinger-partner/master/license) unless otherwise indicated
+- [ ] Smooth scrolling
+- [ ] Missing translations
+- [ ] Unit tests
