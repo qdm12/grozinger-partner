@@ -2,7 +2,9 @@
 
 *Static single page website for law office, written in react + typescript*
 
-<img height="200" src="title.svg?sanitize=true">
+[![Grozinger & Partner S.A.](https://raw.githubusercontent.com/qdm12/grozinger-partner/master/src/static/logo.png)](https://grozinger-partner.com/)
+
+[grozinger-partner.com](https://grozinger-partner.com/)
 
 [![Build status](https://github.com/qdm12/grozinger-partner/workflows/Buildx%20latest/badge.svg)](https://github.com/qdm12/grozinger-partner/actions?query=workflow%3A%22Buildx+latest%22)
 
