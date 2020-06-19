@@ -9,6 +9,9 @@ import Activities from "components/Activities";
 import Team from "components/Team";
 import Contact from "components/Contact";
 import JsonLD from "components/JsonLD";
+import MetaStyle from "components/MetaStyle";
+import MetaOwnership from "components/MetaOwnership";
+import MetaSEO from "components/MetaSEO";
 
 const useStyles = makeStyles({
   root: {
@@ -24,6 +27,9 @@ function App(): JSX.Element {
   return (
     <IntlProvider locale={language} messages={translations[language]} defaultLocale="en">
       <div className={classes.root}>
+        <MetaStyle />
+        <MetaOwnership />
+        <MetaSEO />
         <JsonLD />
         <TopBar />
         <HomeSection />
