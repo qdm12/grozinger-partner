@@ -6,9 +6,11 @@ const useStyles = makeStyles(theme => ({
   root: {
     background: "#700000",
     padding: theme.spacing(3, 0),
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
   },
   link: {
-    display: "block",
     margin: theme.spacing(3, 0),
     color: "white",
     textDecoration: "none",
