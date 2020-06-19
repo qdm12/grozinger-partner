@@ -16,7 +16,7 @@ function JsonLD(): JSX.Element {
         "telephone": "+35220601313",
         "faxNumber": "+35224489896",
         "legalName": "Grozinger and Partner S.A.",
-        "numberOfEmployees": "x",
+        "numberOfEmployees": "4",
         "founders": [
           {
             "@type": "Person",
