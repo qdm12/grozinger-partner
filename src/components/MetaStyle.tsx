@@ -5,7 +5,7 @@ function MetaStyle(): JSX.Element {
   return (
     <Helmet>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>GROZINGER & PARTNER S.A. &#9878</title>
+      <title>GROZINGER & PARTNER S.A. ⚖</title>
       <meta name="theme-color" content="#a5331f" />
       <meta name="msapplication-navbutton-color" content="#a5331f" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
