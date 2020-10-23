@@ -1,9 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import logoImage from "../static/logo.png";
 import luxembourgImage from "../static/luxembourg.png";
+import Logo from "./Logo";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     background: "rgb(255, 242, 242)",
     width: "100%",
@@ -14,6 +14,7 @@ const useStyles = makeStyles(theme => ({
   },
   logo: {
     width: "70%",
+    height: 150,
     opacity: 0.85,
     transition: "all 1s ease",
     "&:hover": {
@@ -35,7 +36,7 @@ function HomeSection(): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root} id="home">
-      <img className={classes.logo} src={logoImage} alt="GROZINGER PARTNER S.A." />
+      <Logo className={classes.logo} />
       <img className={classes.background} src={luxembourgImage} alt="Luxembourg" />
     </div>
   );
