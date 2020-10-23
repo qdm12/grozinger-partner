@@ -11,11 +11,11 @@ function JsonLD(): JSX.Element {
         "@type": "Organization",
         "url": "https://grozinger-partner.com",
         "logo": "https://grozinger-partner.com/logo.png",
-        "name": "GROZINGER & PARTNERS S.A.",
-        "email": "office@grozinger-partners.com",
+        "name": "GROZINGER PARTNER S.A.",
+        "email": "office@grozinger-partner.com",
         "telephone": "+35220601313",
         "faxNumber": "+35224489896",
-        "legalName": "Grozinger and Partner S.A.",
+        "legalName": "Grozinger Partner S.A.",
         "numberOfEmployees": "4",
         "founders": [
           {

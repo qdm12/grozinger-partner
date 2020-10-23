@@ -41,8 +41,8 @@ function Contact(): JSX.Element {
       <a href={"fax:+35224489896"} className={classes.link}>
         Fax: +352 24 48 98 96
       </a>
-      <a href={"mailto:office@grozinger-partners.com?Subject=Enquiry"} className={classes.link}>
-        Email: office@grozinger-partners.com
+      <a href={"mailto:office@grozinger-partner.com?Subject=Enquiry"} className={classes.link}>
+        Email: office@grozinger-partner.com
       </a>
       <a href="https://goo.gl/maps/XoYXRsEcx1s" className={classes.link} target="_blank" rel="noopener noreferrer">
         57, Boulevard Grande-Duchesse Charlotte L-1331 Luxembourg

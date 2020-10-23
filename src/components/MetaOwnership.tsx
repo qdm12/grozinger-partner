@@ -5,7 +5,7 @@ function MetaOwnership(): JSX.Element {
   return (
     <Helmet>
       <meta name="google-site-verification" content="rkGV0R89-zTTiVDNjyd7G8RcUkiv5PfagCNhGVmuUZk" />
-      <meta name="author" content="GROZINGER & PARTNERS S.A." />
+      <meta name="author" content="GROZINGER PARTNER S.A." />
     </Helmet>
   );
 }

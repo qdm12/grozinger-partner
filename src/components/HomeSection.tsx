@@ -35,7 +35,7 @@ function HomeSection(): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root} id="home">
-      <img className={classes.logo} src={logoImage} alt="GROZINGER & PARTNERS S.A." />
+      <img className={classes.logo} src={logoImage} alt="GROZINGER PARTNER S.A." />
       <img className={classes.background} src={luxembourgImage} alt="Luxembourg" />
     </div>
   );
